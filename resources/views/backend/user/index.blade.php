@@ -36,7 +36,7 @@
                         <p>Validé</p>
                     @endif
                 </div>                
-                <div class="col-1 d-flex align-items-center justify-content-center ">
+                <div class="col-1 d-flex align-items-center justify-content-center pr-2 ">
                     <select name="job">
                         <option value={{$user->job->id}} selected>{{$user->job->job}}</option>
                         @foreach ($jobs as $job)
@@ -48,7 +48,7 @@
                         @endforeach
                     </select>
                 </div>
-                <div class="col-1 d-flex align-items-center justify-content-center pr-1">
+                <div class="col-1 d-flex align-items-center justify-content-center ">
                     <select name="role">
                         <option value={{$user->role->id}} selected>{{$user->role->role}}</option>
                         @foreach ($roles as $role)

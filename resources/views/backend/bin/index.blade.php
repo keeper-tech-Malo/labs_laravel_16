@@ -15,12 +15,12 @@
                         <form action="{{route('softRestore', $post->id)}}" method="POST" class="mx-2">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="tresh btn btn-dark">Restore</button>
+                            <button type="submit" class="tresh btn btn-success">Restore</button>
                         </form> 
                         <form action="{{route('post.destroy', $post->id)}}" method="POST" class="mx-2">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="tresh btn btn-dark"><i class="fas fa-trash"></i></button>
+                            <button type="submit" class="tresh btn btn-danger"><i class="fas fa-trash"></i></button>
                         </form> 
                     </li>
                 </div>

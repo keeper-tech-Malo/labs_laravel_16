@@ -4,7 +4,7 @@
     <form action="{{route('title.update', $title->id)}}" class="bordou d-flex flex-column" method="POST">
         @csrf
         @method('PUT')
-        <h1 class="text-center">Titres Home</h1>
+        <h1 class="text-center text-success">Titres Home</h1>
         <div class="form-row d-flex justify-content-center">
             <div class="form-group col-8">
                 <input type="text" style="font-size: 20px;" class="text-center form-control @error('titleHome1') is-invalid @enderror" name="titleHome1" value="{{$title->titleHome1}}">
@@ -45,7 +45,7 @@
                 @enderror
             </div>
         </div>
-        <h1 class="text-center">Titres Service</h1>
+        <h1 class="text-center text-success">Titres Service</h1>
         <div class="form-row d-flex justify-content-center">
             <div class="form-group col-8">
                 <input type="text" style="font-size: 20px;" class="text-center form-control @error('titleService1') is-invalid @enderror" name="titleService1" value="{{$title->titleService1}}">

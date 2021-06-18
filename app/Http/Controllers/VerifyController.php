@@ -32,7 +32,7 @@ class VerifyController extends Controller
         $users = User::where('validate', 0)->get();
         $jobs = Job::all();
         $roles = Role::all();
-        return view('backend.verify.index', compact('video','discover','title','contact','map','logo','footer','posts','users','jobs','roles'));
+        return view('backend.check.index', compact('video','discover','title','contact','map','logo','footer','posts','users','jobs','roles'));
     }
 
     public function valid(Post $id){

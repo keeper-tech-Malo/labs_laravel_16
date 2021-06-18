@@ -36,7 +36,7 @@
                 @endadmin
                 @webmaster
                 <a class="list-group-item list-group-item-action " href="{{route('verify.index')}}"><i class="fas fa-check-square"></i>  Validate</a>
-                <a class="list-group-item list-group-item-action " href="{{route('bin.index')}}"><i class="fas fa-dumpster"></i>  Bin</a>
+                <a class="list-group-item list-group-item-action " href="{{route('bin.index')}}"><i class="fas fa-dumpster"></i>  Poubelle</a>
                 <a class="list-group-item list-group-item-action " href="{{route('user.index')}}"><i class="fas fa-user-friends"></i>  Users</a>
                 @endwebmaster
                 @editor
