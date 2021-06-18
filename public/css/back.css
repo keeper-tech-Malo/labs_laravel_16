@@ -1,0 +1,84 @@
+.tempcolor{
+    background-color: #6A23B5 !important;
+}
+
+.linkcolor{
+    background-color: #6A23B5 !important;
+    transition-duration: 1s;
+    color: white;
+}
+
+.linkcolor:hover{
+    background-color: #2BE6AB !important;
+    color: black !important;
+}
+
+
+.dashbtn{
+    background-color: #2BE6AB !important;
+    border: none;
+    border-radius: 10px;
+    display: flex; 
+    align-items: center;
+}
+
+.bordou{
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.mappeu{
+    height: 500px
+}
+
+.galerie{
+    border:rgb(221, 221, 221) solid 2px;
+}
+
+.icon{
+    font-size: 75px;
+}
+
+.feat{
+    background-color: rgb(226, 226, 226);
+    border-right: solid rgb(221, 221, 221);
+    border-left: solid rgb(221, 221, 221);
+}
+
+.profilimage{
+    border-radius: 50%;
+    border: solid rgb(221, 221, 221);
+    height: 500px;
+}
+
+.desc{
+    line-height: 16px;
+}
+
+.desc span{
+    color:rgb(117, 115, 115)
+}
+
+.grid {
+    margin-bottom: 10px;
+    height: 10%;
+    width: 75%;
+    border: solid 1px;
+}
+
+.grid span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.minimaj{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.userrow{
+    height: 80px;
+}
